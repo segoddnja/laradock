@@ -606,6 +606,27 @@ services:
       networks:
         - frontend
         - backend
+    
+### Swagger-UI ###################################################   
+ 
+    swagger-ui:
+      build: ./swagger
+      ports:
+        - "8085:8085"
+      environment:
+        VERSION: ${SWAGGER_VERSION}
+        FOLDER: ${SWAGGER_FOLDER}
+        API_URL: ${SWAGGER_API_URL}
+        API_KEY: ${SWAGGER_API_KEY}
+        OAUTH_CLIENT_ID: ${SWAGGER_OAUTH_CLIENT_ID}
+        OAUTH_CLIENT_SECRET: ${SWAGGER_VERSION}
+        OAUTH_REALM: ${SWAGGER_OAUTH_REALM}
+        OAUTH_APP_NAME: ${SWAGGER_OAUTH_APP_NAME}
+        OAUTH_ADDITIONAL_PARAMS: ${SWAGGER_OAUTH_ADDITIONAL_PARAMS}
+        SWAGGER_JSON: ${SWAGGER_JSON}
+      networks:
+        - frontend
+        - backend
 
 ### Laravel Echo Server #######################################
     laravel-echo-server:

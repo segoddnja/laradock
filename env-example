@@ -213,6 +213,19 @@ JENKINS_HOST_HTTP_PORT=8090
 JENKINS_HOST_SLAVE_AGENT_PORT=50000
 JENKINS_HOME=./jenkins/jenkins_home
 
+### SWAGGER ############################################################################################################
+
+SWAGGER_VERSION=v2.2.10
+SWAGGER_FOLDER=swagger-ui-2.2.10
+SWAGGER_API_URL=http://petstore.swagger.io/v2/swagger.json
+SWAGGER_API_KEY=**None**
+SWAGGER_OAUTH_CLIENT_ID=**None**
+SWAGGER_OAUTH_CLIENT_SECRET=**None**
+SWAGGER_OAUTH_REALM=**None**
+SWAGGER_OAUTH_APP_NAME=**None**
+SWAGGER_OAUTH_ADDITIONAL_PARAMS=**None**
+SWAGGER_JSON=/app/swagger.json
+
 ### BLACKFIRE ##########################################################################################################
 
 # Create an account on blackfire.io. Don't enable blackfire and xDebug at the same time.
