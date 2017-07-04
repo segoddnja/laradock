@@ -624,6 +624,8 @@ services:
         OAUTH_APP_NAME: ${SWAGGER_OAUTH_APP_NAME}
         OAUTH_ADDITIONAL_PARAMS: ${SWAGGER_OAUTH_ADDITIONAL_PARAMS}
         SWAGGER_JSON: ${SWAGGER_JSON}
+      volumes_from:
+        - applications
       networks:
         - frontend
         - backend

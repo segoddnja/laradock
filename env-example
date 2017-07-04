@@ -217,14 +217,14 @@ JENKINS_HOME=./jenkins/jenkins_home
 
 SWAGGER_VERSION=v2.2.10
 SWAGGER_FOLDER=swagger-ui-2.2.10
-SWAGGER_API_URL=http://petstore.swagger.io/v2/swagger.json
+SWAGGER_API_URL=**None**
 SWAGGER_API_KEY=**None**
 SWAGGER_OAUTH_CLIENT_ID=**None**
 SWAGGER_OAUTH_CLIENT_SECRET=**None**
 SWAGGER_OAUTH_REALM=**None**
 SWAGGER_OAUTH_APP_NAME=**None**
 SWAGGER_OAUTH_ADDITIONAL_PARAMS=**None**
-SWAGGER_JSON=/app/swagger.json
+SWAGGER_JSON=/var/www/swagger.json
 
 ### BLACKFIRE ##########################################################################################################
 
