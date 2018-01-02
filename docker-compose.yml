@@ -630,6 +630,15 @@ services:
         - frontend
         - backend
 
+### Image processor ###################################################
+    image-processor:
+      build: ./image-processor
+      ports:
+        - "8090:8090"
+      networks:
+        - frontend
+        - backend
+
 ### Laravel Echo Server #######################################
     laravel-echo-server:
       build:
